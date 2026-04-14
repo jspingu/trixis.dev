@@ -514,7 +514,7 @@ One of the biggest deterrents to using SIMD intrinsics is, understandably, their
             <p class="navigation-header-text">Next</p>
             <div class="chevron-right"></div>
         </div>
-        <a href="simd-scalable">Scalable Vectorization</a>
+        <a href="simd-scalable" style="text-align: end;">Scalable Vectorization</a>
     </div>
 </div>
 
