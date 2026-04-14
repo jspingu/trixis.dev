@@ -499,7 +499,7 @@ One of the biggest deterrents to using SIMD intrinsics is, understandably, their
 
 ---
 
-*Last edited on April 13, 2026*
+*Last edited on April 14, 2026*
 
 <div class="navigation">
     <div>
@@ -509,12 +509,12 @@ One of the biggest deterrents to using SIMD intrinsics is, understandably, their
         </div>
         <a href="/simd-programming">SIMD Programming with Intrinsics</a>
     </div>
-    <div>
-        <div class="navigation-header" style="justify-content: flex-end;">
+    <div style="display: flex; flex-direction: column; align-items: flex-end;">
+        <div class="navigation-header">
             <p class="navigation-header-text">Next</p>
             <div class="chevron-right"></div>
         </div>
-        <a href="simd-scalable" style="text-align: end;">Scalable Vectorization</a>
+        <a href="/simd-scalable" style="text-align: end;">Scalable Vectorization</a>
     </div>
 </div>
 

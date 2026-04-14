@@ -384,16 +384,16 @@ These results are as expected. The SSE variant ran about 4x faster than the scal
 
 ---
 
-*Last edited on April 13, 2026*
+*Last edited on April 14, 2026*
 
 <div class="navigation">
     <div></div>
-    <div>
-        <div class="navigation-header" style="justify-content: flex-end;">
+    <div style="display: flex; flex-direction: column; align-items: flex-end;">
+        <div class="navigation-header">
             <p class="navigation-header-text">Next</p>
             <div class="chevron-right"></div>
         </div>
-        <a href="/simd-motivations">Motivations for Manual Vectorization</a>
+        <a href="/simd-motivations" style="text-align: end;">Motivations for Manual Vectorization</a>
     </div>
 </div>
 
