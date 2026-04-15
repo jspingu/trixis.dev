@@ -225,8 +225,11 @@ We can visualize how this works by passing in the `-E` flag to the compiler, whi
 ```c
 typedef __m256 sd_float;
 
+constexpr size_t SD_LENGTH = sizeof(sd_float) / sizeof(unsigned char [4]);
+constexpr size_t SD_ALIGN = alignof(sd_float);
+
 static inline size_t sd_bounding_size(size_t n) {
-    return n ? (n - 1) / ( sizeof(sd_float) / sizeof(float) ) + 1 : 0;
+    return n ? (n - 1) / SD_LENGTH + 1 : 0;
 }
 
 static inline sd_float sd_float_add(sd_float lhs, sd_float rhs) {
@@ -558,7 +561,7 @@ As of now, vector processors are not readily available on consumer devices. Rega
 
 ---
 
-*Last edited on April 13, 2026*
+*Last edited on April 15, 2026*
 
 <div class="navigation">
     <div>
